@@ -18,12 +18,14 @@ a {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0px;   
 }
 
 .container header {
     display: flex;
     justify-content: space-between;
-    padding: 5px 20 px;
+    padding: 5px 20px;
+    align-items: center;
 }
 
 .container header .logo {
@@ -71,7 +73,7 @@ a {
 .container main .central img {
     display: flex;
     align-items: center;
-    height: 550px;
+    height: 400px;
 }
 
 .container .fim {
@@ -80,6 +82,7 @@ a {
     justify-content: space-between;
     padding: 10px 40px;
     flex-direction: column;
+    font-weight: bold;
 }
 
 .container main .fim button {
@@ -88,4 +91,10 @@ a {
     background-color: red;
     color: white;
     padding: 10px 160px;
+    font-weight: bold;
+}
+
+.container main .fim p {
+    margin: 10px;
+    font-size: small;
 }
