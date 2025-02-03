@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+
+.container .esquerda {
+    width: 50%;
+    height: 100%;
+    background-color: #1D8FE1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.container .esquerda h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.container .esquerda p {
+    display: flex;
+    align-items: center;
+}
+
+
+.container .direita {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container .direita .formulario {
+    width: 80%;
+}
+
+.container .direita .formulario .topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+.container .direita .formulario .topo h1{
+  display: flex;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.container .direita .formulario .topo .redessociais  i{
+    border: 1px solid #cecece;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: rgb(13, 13, 126);
+}
+ .container .direita .formulario .topo .redessociais{
+    display: flex;
+    cursor: pointer;
+    gap: 10px;
+ }
+
+ .container .direita .meio .icone input {
+    border: none;
+    background-color: #cecece;
+    margin: 2px;
+    padding: 20px 20px;
+    width: 85%;
+    display: flex;
+    margin: 10px;
+ }
+
+.container .direita .formulario .fim button{
+    background-color: #0392f8;
+    border: none;
+    padding: 20px 60px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
