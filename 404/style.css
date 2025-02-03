@@ -25,3 +25,67 @@ a {
     justify-content: space-between;
     padding: 5px 20 px;
 }
+
+.container header .logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+
+}
+
+.container header img {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    object-fit: contain;
+}
+
+.container header .navegacao nav {
+    display: flex;
+    align-items: center;
+    margin: 0px 120px;
+}
+
+.container header .navegacao nav .sociais {
+    gap: 12px;
+    display: flex;
+
+}
+
+.container header .navegacao nav ul {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    margin-right: 80px;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.container main .central {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container main .central img {
+    display: flex;
+    align-items: center;
+    height: 550px;
+}
+
+.container .fim {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    flex-direction: column;
+}
+
+.container main .fim button {
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 10px 160px;
+}
